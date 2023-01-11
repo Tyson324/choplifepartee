@@ -1,0 +1,24 @@
+{
+  "name": "Choplifepartee",
+  "version": "1.0.0",
+  "description": "Live Life and Enjoy Yourself",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "keywords": [],
+  "author": "Soneil G",
+  "license": "MIT",
+  "homepage": "[HOMEPAGE]",
+  "bugs": {
+    "url": "https://lol.com"
+  },
+  "dependencies": {
+    "imagesloaded": "^4.1.4",
+    "locomotive-scroll": "^3.6.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
